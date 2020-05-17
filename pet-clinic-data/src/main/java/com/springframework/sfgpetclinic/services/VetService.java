@@ -1,4 +1,6 @@
 package com.springframework.sfgpetclinic.services;
 
-public interface VetService {
+import com.springframework.sfgpetclinic.model.Vet;
+
+public interface VetService extends CrudService<Vet, Long> {
 }
